@@ -1,7 +1,7 @@
 lockfileVersion: '9.0'
 
 settings:
-  autoInstallPeers: true
+  autoInstallPeers: false
   excludeLinksFromLockfile: false
 
 importers:
@@ -725,8 +725,8 @@ packages:
     resolution: {integrity: sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==}
     engines: {node: '>=8'}
 
-  follow-redirects@1.15.11:
-    resolution: {integrity: sha512-deG2P0JfjrTxl50XGCDyfI97ZGVCxIpfKYmfyrQ54n5FO/0gfIES8C/Psl6kWVDolizcaaxZJnTS0QSMxvnsBQ==}
+  follow-redirects@1.16.0:
+    resolution: {integrity: sha512-y5rN/uOsadFT/JfYwhxRS5R7Qce+g3zG97+JrtFZlC9klX/W5hD7iiLzScI4nZqUS7DNUdhPgw4xI8W2LuXlUw==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -973,8 +973,8 @@ packages:
   lodash.isfinite@3.3.2:
     resolution: {integrity: sha512-7FGG40uhC8Mm633uKW1r58aElFlBlxCrg9JfSi3P6aYiWmfiWF0PgMd86ZUsxE5GwWPdHoS2+48bwTh2VPkIQA==}
 
-  lodash@4.17.23:
-    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
+  lodash@4.18.1:
+    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
@@ -1793,7 +1793,7 @@ snapshots:
 
   async@2.6.4:
     dependencies:
-      lodash: 4.17.23
+      lodash: 4.18.1
 
   asynckit@0.4.0: {}
 
@@ -1803,7 +1803,7 @@ snapshots:
 
   axios@0.21.4(debug@4.3.2):
     dependencies:
-      follow-redirects: 1.15.11(debug@4.3.2)
+      follow-redirects: 1.16.0(debug@4.3.2)
     transitivePeerDependencies:
       - debug
 
@@ -2055,7 +2055,7 @@ snapshots:
 
   easy-extender@2.3.4:
     dependencies:
-      lodash: 4.17.23
+      lodash: 4.18.1
 
   eazy-logger@4.1.0:
     dependencies:
@@ -2153,7 +2153,7 @@ snapshots:
       locate-path: 5.0.0
       path-exists: 4.0.0
 
-  follow-redirects@1.15.11(debug@4.3.2):
+  follow-redirects@1.16.0(debug@4.3.2):
     optionalDependencies:
       debug: 4.3.2
 
@@ -2247,7 +2247,7 @@ snapshots:
   http-proxy@1.18.1:
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.15.11(debug@4.3.2)
+      follow-redirects: 1.16.0(debug@4.3.2)
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
@@ -2379,7 +2379,7 @@ snapshots:
       browser-sync: 2.29.3
       connect-history-api-fallback: 1.6.0
       connect-logger: 0.0.1
-      lodash: 4.17.23
+      lodash: 4.18.1
       minimist: 1.2.8
     transitivePeerDependencies:
       - bufferutil
@@ -2402,7 +2402,7 @@ snapshots:
 
   lodash.isfinite@3.3.2: {}
 
-  lodash@4.17.23: {}
+  lodash@4.18.1: {}
 
   lru-cache@5.1.1:
     dependencies:
