@@ -53,3 +53,4 @@ peerDependencyRules:
     - '@angular/*'
 overrides:
   lodash-es@<=4.18.1: 4.18.1
+  websocket-driver@<=0.7.5: 0.7.5
